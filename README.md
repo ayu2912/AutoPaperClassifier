@@ -32,37 +32,26 @@ Designed for scenarios where you want to:
 ---
 
 📦 AutoPaperClassifier/
-
-├── api/
-
-│   └── app.py                    # FastAPI server with /predict endpoint
-
+AutoPaperClassifier/
 │
-├── model/
-
-│   ├── bert_classifier.py        # BERT-based classifier model definition
-
-│   └── inference.py              # Inference pipeline: load model, tokenizer, predict
-
+├── api/                                  # 📡 FastAPI-based API server
+│   ├── app.py                            # 🔥 FastAPI app with /predict endpoint
+│   ├── inference.py                      # 🔍 Model loading + prediction pipeline
+│   └── model/
+│       ├── __init__.py                   # 🧩 Makes 'model' a package
+│       └── bert_classifier.py            # 🤖 BERT-based classifier definition
 │
-
-├── saved_model/
-
-│   ├── model.pt                  # Trained model weights
-
-│   └── label_encoder.joblib      # Scikit-learn LabelEncoder for label mapping
-
+├── saved_model/                          # 💾 Stored model and encoders
+│   ├── model.pt                          # 🧠 Trained PyTorch model weights
+│   └── label_encoder.joblib              # 🏷️ Scikit-learn LabelEncoder
 │
-
-├── experiment_01_document_classifier.ipynb   # Full notebook: training, evaluation, saving model
-
+├── experiment_01_document_classifier.ipynb  # 📓 Notebook: training, evaluation, saving model
 │
-
-├── requirements.txt              # All dependencies (transformers, torch, fastapi, etc.)
-
-├── README.md                     # Project documentation
-
-└── .gitignore                    # Git ignore file for unnecessary files
+├── requirements.txt                      # 📦 Python dependencies (transformers, torch, fastapi, etc.)
+│
+├── README.md                             # 📖 Project description and usage
+│
+└── .gitignore                            # 🚫 Files and folders to ignore in version control
 
 
 
