@@ -31,8 +31,11 @@ Designed for scenarios where you want to:
 
 ---
 
-<pre><code>```bash 📦 AutoPaperClassifier/ ├── api/ # 📡 FastAPI-based API server │ ├── app.py # 🔥 FastAPI app with /predict endpoint │ ├── inference.py # 🔍 Model loading + prediction pipeline │ └── model/ │ ├── __init__.py # 🧩 Makes 'model' a package │ └── bert_classifier.py # 🤖 BERT-based classifier definition │ ├── saved_model/ # 💾 Stored model and encoders │ ├── model.pt # 🧠 Trained PyTorch model weights │ └── label_encoder.joblib # 🏷️ Scikit-learn LabelEncoder │ ├── experiment_01_document_classifier.ipynb # 📓 Notebook: training, evaluation, saving model ├── requirements.txt # 📦 Python dependencies (transformers, torch, fastapi, etc.) ├── README.md # 📖 Project description and usage └── .gitignore # 🚫 Files and folders to ignore in version control ```</code></pre>
+<pre lang="markdown"><code>
+```bash 
+     📦 AutoPaperClassifier/ ├── api/ # 📡 FastAPI-based API server │ ├── app.py # 🔥 FastAPI app with /predict endpoint │ ├── inference.py # 🔍 Model loading + prediction pipeline │ └── model/ │ ├── __init__.py # 🧩 Makes 'model' a package │ └── bert_classifier.py # 🤖 BERT-based classifier definition │ ├── saved_model/ # 💾 Stored model and encoders │ ├── model.pt # 🧠 Trained PyTorch model weights │ └── label_encoder.joblib # 🏷️ Scikit-learn LabelEncoder │ ├── experiment_01_document_classifier.ipynb # 📓 Notebook: training, evaluation, saving model ├── requirements.txt # 📦 Python dependencies (transformers, torch, fastapi, etc.) ├── README.md # 📖 Project description and usage └── .gitignore # 🚫 Files and folders to ignore in version control
 
+    
 ## 🚀 Getting Started
 
 ### 1. Clone the repository
