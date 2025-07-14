@@ -32,22 +32,38 @@ Designed for scenarios where you want to:
 ---
 
 📦 AutoPaperClassifier/
+
 ├── api/
+
 │   └── app.py                    # FastAPI server with /predict endpoint
+
 │
 ├── model/
+
 │   ├── bert_classifier.py        # BERT-based classifier model definition
+
 │   └── inference.py              # Inference pipeline: load model, tokenizer, predict
+
 │
+
 ├── saved_model/
+
 │   ├── model.pt                  # Trained model weights
+
 │   └── label_encoder.joblib      # Scikit-learn LabelEncoder for label mapping
+
 │
+
 ├── experiment_01_document_classifier.ipynb   # Full notebook: training, evaluation, saving model
+
 │
+
 ├── requirements.txt              # All dependencies (transformers, torch, fastapi, etc.)
+
 ├── README.md                     # Project documentation
+
 └── .gitignore                    # Git ignore file for unnecessary files
+
 
 
 ## 🚀 Getting Started
