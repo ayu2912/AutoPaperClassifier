@@ -1,4 +1,4 @@
-#AutoPaperClassifier
+# AutoPaperClassifier
 
 ## Document Intelligence: BERT-Powered PDF Classifier with FastAPI
 
