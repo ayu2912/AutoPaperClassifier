@@ -45,7 +45,7 @@ Designed for scenarios where you want to:
           │   ├── model.pt                          # 🧠 Trained PyTorch model weights
           │   └── label_encoder.joblib              # 🏷️ Scikit-learn LabelEncoder
           │
-          ├── experiment_01_document_classifier.ipynb  # 📓 Notebook: training, evaluation, saving model
+          ├── experiment_01_document_classifier.ipynb  # 📓 Collab: training, evaluation, saving model
           │
           ├── requirements.txt                      # 📦 Python dependencies (transformers, torch, fastapi, etc.)
           │
